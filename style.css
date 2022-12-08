@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+.icon {
+    height: 28px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2 {
+    height: 22px;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edf2f4;
+    height: 30px;
+    padding: 4px 225px;
+}
+
+.header-top-ilmateade {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.header-top-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-top-left {
+    width: 290px;
+    display: flex;
+    align-items:  center;
+    justify-content: space-evenly;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'roboto', 'sans-serif';
+}
+
+p {
+    font-family: 'roboto', 'sans-serif';
+}
+
+.header-main {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid 1px black;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+.header-main-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.container-telli-logisisse {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+    gap: 40px;
+}
+
+.telli {
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.a-telli {
+    color: #ffffff;
+}
+
+.logi-sisse {
+    background-color: #edf2f4;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.header-main-separator {
+    background-color: black;
+    width: 2px;
+    height: auto;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 38px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+img {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+.uudised1 {
+    display: flex;
+    gap: 24px;
+    width: 80%;
+    height: 430px;  
+}
+
+.uudised1 p {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.uudised2 {
+    display: flex;
+    gap: 24px;
+    width: 80%;
+    height: 320px;  
+}
+
+.uudised2 p {
+    font-weight: 700;
+    font-size: 20px;
+}
